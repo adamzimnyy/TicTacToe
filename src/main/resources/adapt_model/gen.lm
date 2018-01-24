@@ -1,0 +1,75 @@
+Language model created by QuickLM on Fri Jan 12 19:35:26 EST 2018
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 4 sentences and 16 words
+
+\data\
+ngram 1=16
+ngram 2=19
+ngram 3=17
+
+\1-grams:
+-1.1614 </s> -0.3010
+-1.1614 <s> -0.2700
+-1.2863 a -0.2780
+-1.7634 bottom -0.2935
+-1.7634 center -0.2858
+-1.4624 field -0.2700
+-1.7634 game -0.2700
+-1.7634 left -0.2858
+-1.4624 mark -0.2858
+-1.7634 new -0.2935
+-1.4624 on -0.2858
+-1.4624 place -0.2780
+-1.7634 right -0.2700
+-1.7634 start -0.2780
+-1.4624 the -0.2858
+-1.7634 top -0.2935
+
+\2-grams:
+-0.9031 <s> bottom 0.0000
+-0.6021 <s> place 0.0000
+-0.9031 <s> start 0.0000
+-0.4771 a mark 0.0000
+-0.7782 a new 0.0000
+-0.3010 bottom right 0.0000
+-0.3010 center field 0.0000
+-0.3010 field </s> -0.3010
+-0.3010 game </s> -0.3010
+-0.3010 left field 0.0000
+-0.3010 mark on 0.0000
+-0.3010 new game 0.0000
+-0.3010 on the 0.0000
+-0.3010 place a -0.1249
+-0.3010 right </s> -0.3010
+-0.3010 start a -0.2218
+-0.6021 the center 0.0000
+-0.6021 the top 0.0000
+-0.3010 top left 0.0000
+
+\3-grams:
+-0.3010 <s> bottom right
+-0.3010 <s> place a
+-0.3010 <s> start a
+-0.3010 a mark on
+-0.3010 a new game
+-0.3010 bottom right </s>
+-0.3010 center field </s>
+-0.3010 left field </s>
+-0.3010 mark on the
+-0.3010 new game </s>
+-0.6021 on the center
+-0.6021 on the top
+-0.3010 place a mark
+-0.3010 start a new
+-0.3010 the center field
+-0.3010 the top left
+-0.3010 top left field
+
+\end\
